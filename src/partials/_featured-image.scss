@@ -1,0 +1,19 @@
+#rw-front-page {
+  .featured-image{
+    --height:300px;
+    min-height: var(--height);
+    .image{
+      background: url("https://images.pexels.com/photos/3755706/pexels-photo-3755706.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat 50% 50%;
+      background-position: center;
+      background-size: cover;
+      height: var(--height);
+      width: 100%;
+      @media(min-width:1024px){
+        height: 600px;
+      }
+      @media (min-width:1440px){
+        height: 800px;
+      }
+    }
+  }
+}

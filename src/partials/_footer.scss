@@ -1,0 +1,55 @@
+
+/************************
+* Footer starts here
+*/
+footer{
+  padding:1rem;
+  .navbar-brand{
+    margin-bottom: 1rem;
+    a{
+      font-size: 30px;
+      color: #3a1e08;
+      cursor: pointer;
+      flex: 1;
+      text-decoration: none;
+    }
+  }
+  .subscription{
+    margin-bottom: 2rem;
+    form{
+      & input:not(:last-child){
+        margin-bottom: 1rem;
+      }
+      input[type=submit]{
+        width: 100%;
+      }
+    }
+  }
+  .footer-links{
+    .links-heading{
+      margin-bottom: 1rem;
+    }
+    ul{
+      li{
+        &:not(:last-child){
+          margin-bottom: 0.5rem;
+        }
+        a{
+          color: unset;
+          text-decoration: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .footer-socket{
+    padding: 2rem;
+    p{
+      text-align: center;
+      margin-bottom: 0;
+    }
+  }
+}
+/*
+* Footer ends here
+***********************/

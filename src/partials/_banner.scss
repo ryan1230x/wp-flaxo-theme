@@ -1,0 +1,33 @@
+/***********************
+* banner starts here
+*/
+
+#rw-front-page{
+  .front-page-banner{
+    .banner-title{
+      h1{
+        font-size: setRem(62px);
+      }
+    }
+    .banner-cta{
+      max-width: 80%;
+      margin: 0 auto;
+      svg{
+        height: 40px;
+        width: auto;
+        margin-right: 0.5rem;
+      }
+      a{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 89%;
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+/*
+* banner finish here
+*************************/

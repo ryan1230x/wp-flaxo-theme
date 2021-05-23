@@ -1,0 +1,47 @@
+/***********************
+* global starts here
+*/
+html,
+body{
+  background-color: $main-background;
+  line-height: 1.7;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Playfair Display', serif;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.custom-wrapper.container-fluid{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.section-padding{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.heading{
+  margin-bottom: 3rem;
+  h2{
+    font-size: 2.5rem;
+  }
+}
+#smooth-scrollbar{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden !important;
+}
+
+.grid-parent{
+  display: grid;
+}
+/*
+* global finish here
+*************************/

@@ -1,0 +1,66 @@
+/***********************
+* Header starts here
+*/
+header{
+  padding-top: setRem(30px);
+  .container-fluid{
+    padding: 0;
+    margin-left: var(--bs-gutter-x,.75rem);
+    margin-right: var(--bs-gutter-x,.75rem);
+  }
+  .navbar{
+    padding:0px;
+  }
+  .navbar-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    //flex: 1;
+  }
+  .navbar-hamgurger{
+    margin-right: 1rem;
+    .line{
+      height: 3px;
+      background: $black;
+      &:not(:last-child){
+        margin-bottom: 5px;
+      }
+      &:first-child{
+        width: 11px;
+      }
+      &:last-child{
+        width:22px;
+      }
+    }
+  }
+  .navbar-brand {
+    margin-right: 0px;
+    font-size: 30px;
+    color: $black;
+    cursor: pointer;
+    flex: 1;
+  }
+  .header-cta{
+    button{
+      border-radius: setRem(3px);
+      border:none;
+      background-color: #fff;
+      padding: 0.7rem;
+      &:not(:last-child){
+        margin-right: setRem(5px);
+      }
+    }
+  }
+  .primary-menu{
+    li{
+      padding: 1rem;
+      a{
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
+/*
+* Header finish here
+*************************/

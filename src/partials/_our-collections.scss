@@ -1,0 +1,36 @@
+/***********************
+* our collections starts here
+*/
+#rw-front-page{
+  .our-collections{
+    // vars
+    --container:1rem;
+  
+    .our-collections-item{
+      margin-bottom: 2rem;
+      h3{
+        font-size: 2rem;
+      }
+      &.line-through{
+        h3{
+          text-decoration: line-through;
+        }
+      }
+    }
+    .our-collections-info{
+      position: relative;
+      top: -50px;
+      padding: var(--container);
+    }
+    .our-collections-cta{
+      background-color: white;
+      display: grid;
+      grid-template-columns: 90% auto;
+      padding: var(--container);
+      
+    }
+  }
+}
+/*
+* our collections finish here
+*************************/

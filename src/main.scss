@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+// import meta
+@import "./partials/variables";
+@import "./partials/func";
+@import "./partials/components";
+
+// import styles
+@import "./partials/global";
+@import "./partials/header";
+@import "./partials/featured-image";
+@import "./partials/banner";
+@import "./partials/new-arrival";
+@import "./partials/our-collections";
+@import "./partials/season";
+@import "./partials/footer";
+@import "./partials/media";

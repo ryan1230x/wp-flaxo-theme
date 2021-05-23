@@ -1,0 +1,9 @@
+/***********************
+* functions starts here
+*/
+@function setRem($px) {
+  @return $px / $font-size * 1rem
+};
+/*
+* functions finish here
+*************************/
