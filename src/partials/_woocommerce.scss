@@ -1,0 +1,37 @@
+.rw-woocommerce__alert-success{
+  border-top-color: var(--bs-success);
+}
+
+.rw-woocommerce__alert-danger{
+  border-top-color: var(--bs-danger);
+}
+
+.rw-woocommerce__alert-info{
+  border-top-color: var(--bs-info);
+}
+
+#rw-shop-page{
+  a{
+    color: unset;
+    transition: color 250 ease-in-out;
+    &:hover{
+      color: var(--bs-primary);
+    }
+  }
+
+  .rw-woocommerce__account-nav{
+    ul{
+      li{
+        padding: 1rem;
+        background-color: white;
+        &:not(:last-child){
+          margin-bottom: 0.5rem;
+        }
+        a{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+}

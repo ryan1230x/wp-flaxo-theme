@@ -1,3 +1,8 @@
+/*
+Theme Name: My woocommerce theme
+Author: Ryan
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
 
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -6,6 +11,9 @@
 @import "./partials/variables";
 @import "./partials/func";
 @import "./partials/components";
+
+// woocommerce styles
+@import "./partials/woocommerce";
 
 // import styles
 @import "./partials/global";
