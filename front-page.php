@@ -47,60 +47,10 @@ get_header();
           </h2>
         </div>
         <div class="new-arrivals-gallery">
-        <?php the_content(); ?>
-          <ul class="new-arrivals-gallery-list">
-            <li class="new-arrival-gallery-item">
-              <div class="gallery-item-image">
-                <a href="#">
-                  <img 
-                    src="https://images.unsplash.com/photo-1505022610485-0249ba5b3675?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-                    alt=""
-                    class="img-fluid"
-                  >
-                </a>
-              </div>
-              <div class="gallery-item-details">
-                <h3>
-                  Lorem, ipsum.
-                  <span>&pound;100</span>
-                </h3>
-              </div>
-            </li>
-            <li class="new-arrival-gallery-item">
-              <div class="gallery-item-image">
-                <a href="#">
-                  <img 
-                    src="https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
-                    alt=""
-                    class="img-fluid"
-                  >
-                </a>
-              </div>
-              <div class="gallery-item-details">
-                <h3>
-                  Lorem, ipsum.
-                  <span>&pound;100</span>
-                </h3>
-              </div>
-            </li>
-            <li class="new-arrival-gallery-item">
-              <div class="gallery-item-image">
-                <a href="#">
-                  <img 
-                    src="https://images.unsplash.com/photo-1613309447011-d66b9d6fe475?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-                    alt=""
-                    class="img-fluid"
-                  >
-                </a>
-              </div>
-              <div class="gallery-item-details">
-                <h3>
-                  Lorem, ipsum.
-                  <span>&pound;100</span>
-                </h3>
-              </div>
-            </li>
-          </ul>
+        <?php 
+        the_content(); 
+        echo do_shortcode('[woo_product_slider id="40"]');
+        ?>
         </div>
       </div>
     </div>
