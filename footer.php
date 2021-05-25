@@ -11,19 +11,19 @@
             <form action="#" method="post">
               <div class="form-group">
                 <input placeholder="Your email" type="email" name="email" id="email" class="form-control form-control-lg" />
-                <input type="submit" value="Sign up" class="btn button">
+                <input type="submit" value="Sign up" class="btn rw-button">
               </div>
             </form>
           </div>
         </div>
-        <div class="grid-child">
+        <div class="grid-child footer-links">
           <div class="links-heading">
             <h4>Links</h4>
           </div>
           <?php 
           wp_nav_menu(array(
             "theme_location" => "footer-menu",
-            "menu_class" => "footer-links"
+            "menu_class" => "footer-links-list"
           ));
           ?>
         </div>
