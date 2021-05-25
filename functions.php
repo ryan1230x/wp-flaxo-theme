@@ -22,11 +22,17 @@ add_action("wp_enqueue_scripts", "load_scripts");
   
 /********************************
  * add theme support
- */
+ */ 
 function register_my_menus(){
   register_nav_menus(array(
     "primary-menu" => __("Primary Menu"),
     "footer-menu" => __("Footer Menu")
   ));
 }
-add_action("init", register_my_menus);
+add_action("init", "register_my_menus");
+
+
+function woocommerce_support() {
+  add_theme_support( 'woocommerce' );
+}
+add_action( 'after_setup_theme', 'woocommerce_support' );
