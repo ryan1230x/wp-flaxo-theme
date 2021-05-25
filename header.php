@@ -20,7 +20,7 @@
         <div class="line"></div>
         <div class="line"></div>
       </div>
-      <a class="navbar-brand" href="/">Flaxo.</a>
+      <a class="navbar-brand" href=<?php bloginfo("url"); ?>>Flaxo.</a>
       <div class="header-cta">
         <button type="button">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
