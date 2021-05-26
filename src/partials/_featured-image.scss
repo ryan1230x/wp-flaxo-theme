@@ -3,7 +3,7 @@
     --height:300px;
     min-height: var(--height);
     .image{
-      background: url("../../assets/images/featured-image.jpeg") no-repeat 50% 50%;
+      background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
       height: var(--height);

@@ -33,7 +33,7 @@ get_header();
   <!-- featured image start -->
   <section class="featured-image mb-5">
     <div class="container-fluid">
-      <div class="image"></div>
+      <div class="image" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/featured-image.jpeg);"></div>
     </div>
   </section>
   <!-- featured image end -->
