@@ -15,10 +15,10 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    //flex: 1;
   }
-  .navbar-hamgurger{
-    margin-right: 1rem;
+  .navbar-hamburger{
+    margin-right: 1.2rem;
+    cursor: pointer;
     .line{
       height: 3px;
       background: $black;
@@ -39,17 +39,6 @@ header{
     color: $black;
     cursor: pointer;
     flex: 1;
-  }
-  .header-cta{
-    button{
-      border-radius: setRem(3px);
-      border:none;
-      background-color: #fff;
-      padding: 0.7rem;
-      &:not(:last-child){
-        margin-right: setRem(5px);
-      }
-    }
   }
   .primary-menu{
     li{
