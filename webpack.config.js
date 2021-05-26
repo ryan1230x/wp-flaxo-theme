@@ -10,7 +10,7 @@ const stylesHandler = MiniCssExtractPlugin.loader;
 const config = {
   entry: ["./src/index.js","./src/main.scss"],
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname),
   },
   plugins: [
     new MiniCssExtractPlugin(),
