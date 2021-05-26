@@ -33,5 +33,26 @@
       }
     }
   }
+  #rw-woocommerce__to-checkout{
+    a{
+      color: white;
+    }
+  }
+}
 
+#rw-woocommerce__login-form,
+#rw-woocommerce__register-form{
+  min-height: 400px;
+  button[type=submit]{
+    width:100%;
+    @media(min-width:1440px){
+      width: unset;   
+    }
+  }
+}
+
+#rw-woocommerce__shop-list{
+  .woocommerce-loop-product__title{
+    color: #212529;
+  }
 }
