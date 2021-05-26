@@ -81,7 +81,7 @@ get_header();
           <div class="col-12 col-lg-6">
             <div class="our-collections-image">
               <img 
-                src="https://images.unsplash.com/photo-1488161628813-04466f872be2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/hoodie-image.jpeg"
                 alt=""
                 class="img-fluid"
               >
@@ -123,7 +123,7 @@ get_header();
           <div class="col-12 col-lg-6">
             <div class="season-cta">
               <img 
-                src="https://images.unsplash.com/photo-1611099024089-7f57ca9aca7f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/season-image-one.jpeg"
                 alt=""
                 class="img-fluid"
               >
@@ -138,7 +138,7 @@ get_header();
           <div class="col-12 col-lg-6 season-second-col-wrapper">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non commodi omnis quisquam tempore deserunt? Aliquam expedita inventore dignissimos delectus iusto.</p>
             <img 
-              src="https://images.unsplash.com/photo-1620833072816-e879094a1475?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"
+              src="<?php echo get_template_directory_uri(); ?>/assets/images/season-image-two.jpeg"
               alt=""
               class="img-fluid"
               >
